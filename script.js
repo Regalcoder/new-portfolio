@@ -1,52 +1,50 @@
-// Navigation functionality
-        const navItems = document.querySelectorAll('.nav-item');
-        const contentSections = document.querySelectorAll('.content-section');
+function switchTab(tabId, el) {
+            document.querySelectorAll('.tab-section').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
+            
+            document.getElementById(tabId).classList.add('active');
+            el.classList.add('active');
+        }
 
-        navItems.forEach(item => {
-            item.addEventListener('click', () => {
-                const targetSection = item.getAttribute('data-section');
-                
-                // Remove active class from all nav items and sections
-                navItems.forEach(nav => nav.classList.remove('active'));
-                contentSections.forEach(section => section.classList.remove('active'));
-                
-                // Add active class to clicked nav item and corresponding section
-                item.classList.add('active');
-                document.getElementById(targetSection).classList.add('active');
+        function filterProjects(category, el) {
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            el.classList.add('active');
+
+            document.querySelectorAll('.project-card').forEach(card => {
+                const cardCat = card.getAttribute('data-category');
+                if (category === 'all' || cardCat.includes(category)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
             });
-        });
+        }
 
-        // Portfolio filtering functionality
-        const portfolioNavItems = document.querySelectorAll('.portfolio-nav-item');
-        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeUI(newTheme);
+        }
 
-        portfolioNavItems.forEach(item => {
-            item.addEventListener('click', () => {
-                const filter = item.getAttribute('data-filter');
-                
-                // Remove active class from all portfolio nav items
-                portfolioNavItems.forEach(nav => nav.classList.remove('active'));
-                item.classList.add('active');
-                
-                // Filter portfolio items
-                portfolioItems.forEach(portfolioItem => {
-                    const category = portfolioItem.getAttribute('data-category');
-                    
-                    if (filter === 'all' || category === filter) {
-                        portfolioItem.style.display = 'block';
-                    } else {
-                        portfolioItem.style.display = 'none';
-                    }
-                });
-            });
-        });
+        function updateThemeUI(theme) {
+            const icon = document.getElementById('themeIcon');
+            const text = document.getElementById('themeText');
+            
+            if (theme === 'light') {
+                icon.className = 'fa-solid fa-moon';
+                text.textContent = 'Dark Mode';
+            } else {
+                icon.className = 'fa-solid fa-sun';
+                text.textContent = 'Light Mode';
+            }
+        }
 
-        // Smooth scrolling for better UX
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
+        (function initTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateThemeUI(savedTheme);
+        })();
