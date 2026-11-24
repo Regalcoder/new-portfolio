@@ -1,457 +1,846 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kenneth Ndubueze | Frontend & CMS Engineer</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>Kenneth Ndubueze | Frontend &amp; CMS Engineer — React, Next.js &amp; AI</title>
+    <meta name="description" content="Frontend &amp; CMS Engineer with 3+ years of experience building high-performance React, Next.js, TypeScript, AI automation apps, and custom WordPress, Squarespace, Webflow, and Wix platforms.">
+    <meta name="author" content="Kenneth Ndubueze">
+    <link rel="canonical" href="https://regalcoder.github.io/new-portfolio/">
 
-    <!-- Google Fonts & FontAwesome -->
+    <!-- Open Graph / Social Preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://regalcoder.github.io/new-portfolio/">
+    <meta property="og:title" content="Kenneth Ndubueze | Frontend &amp; CMS Engineer">
+    <meta property="og:description" content="Bridging rapid CMS delivery with custom React, Next.js &amp; AI engineering. Open to remote roles and contract projects (EST / GMT overlap).">
+    <meta property="og:image" content="https://regalcoder.github.io/new-portfolio/images/ken2.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kenneth Ndubueze | Frontend &amp; CMS Engineer">
+    <meta name="twitter:description" content="Bridging rapid CMS delivery with custom React, Next.js &amp; AI engineering.">
+    <meta name="twitter:image" content="https://regalcoder.github.io/new-portfolio/images/ken2.jpg">
+
+    <!-- Google Fonts: Inter & JetBrains Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-   
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Kenneth Ndubueze",
+        "jobTitle": "Frontend & CMS Engineer",
+        "url": "https://regalcoder.github.io/new-portfolio/",
+        "email": "mailto:ndubuezekenny@gmail.com",
+        "image": "https://regalcoder.github.io/new-portfolio/images/ken2.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lagos",
+            "addressCountry": "NG"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/in/kenneth-n-890749b3",
+            "https://github.com/Regalcoder"
+        ],
+        "knowsAbout": [
+            "React.js",
+            "Next.js",
+            "TypeScript",
+            "Supabase",
+            "WordPress Custom Themes and Plugins",
+            "Squarespace",
+            "Webflow",
+            "Wix",
+            "Technical SEO",
+            "AI Engineering"
+        ]
+    }
+    </script>
 </head>
 <body>
+    <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <div class="container">
-        
-        <!-- LEFT SIDEBAR -->
-        <aside class="sidebar">
-            <div class="avatar-container">
-                <img src="images/ken2.jpg" alt="Kenneth Ndubueze" class="avatar">
+    <div class="page-shell">
+        <!-- LEFT STICKY SIDEBAR -->
+        <aside class="sidebar" aria-label="Profile and navigation">
+            <div class="sidebar-top">
+                <div class="avatar-row">
+                    <div class="avatar-ring">
+                        <img
+                            src="images/ken2.jpg"
+                            alt="Kenneth Ndubueze — Frontend and CMS Engineer"
+                            class="avatar-img"
+                            width="200"
+                            height="250"
+                            fetchpriority="high"
+                            decoding="async"
+                        >
+                    </div>
+                    <div class="location-block">
+                        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                        <span>Lagos, Nigeria (Remote Worldwide)</span>
+                    </div>
+                </div>
+
+                <div class="profile-name">Kenneth Ndubueze</div>
+                <p class="profile-role">Frontend &amp; CMS Engineer · React, Next.js &amp; Modern Web Platforms</p>
+
+                <div class="availability-pill">
+                    <span class="pulse-dot" aria-hidden="true"></span>
+                    <span>Open to Remote &amp; Contract · EST/GMT Overlap</span>
+                </div>
             </div>
 
-            <h1 class="profile-name">Kenneth Ndubueze</h1>
-            <p class="profile-title">Frontend & CMS Engineer | React.js, Next.js, Modern Web Platforms</p>
-            
-            <div class="contact-list">
-                <div class="contact-item">
-                    <i class="fa-regular fa-envelope"></i>
-                    <span>ndubuezekenny@gmail.com</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fa-solid fa-phone"></i>
-                    <span>+234-8060333491</span>
-                </div>
-
-                <div class="contact-item">
-                    <i class="fa-solid fa-phone"></i>
-                    <span>+234-9163433519</span>
-                </div>
-                <div class="contact-item">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span>Nigeria (Remote)</span>
-                </div>
-            </div>
-
-            <div style="display: flex; gap: 0.5rem; width: 100%; margin-bottom: 1rem;">
-                <a href="https://www.linkedin.com/in/kenneth-n-890749b3" target="_blank" class="btn-action">
-                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+            <nav class="sidebar-nav" aria-label="Portfolio sections">
+                <a href="#overview" class="nav-item active" data-section="overview">
+                    <span class="nav-line" aria-hidden="true"></span>
+                    <span class="nav-num">01.</span>
+                    <span class="nav-label">Overview</span>
                 </a>
-                <a href="https://github.com/Regalcoder" target="_blank" class="btn-action">
-                    <i class="fa-brands fa-github"></i> GitHub
+                <a href="#featured" class="nav-item" data-section="featured">
+                    <span class="nav-line" aria-hidden="true"></span>
+                    <span class="nav-num">02.</span>
+                    <span class="nav-label">Featured Work</span>
                 </a>
-            </div>
-
-            <a href="https://drive.google.com/file/d/1FIQr7ULA8i_i4p45Xrp3LnePXGt45TuU/view?usp=drive_link" target="_blank" class="btn-cv">
-                <i class="fa-solid fa-download"></i> Download CV
-            </a>
-        </aside>
-
-        <!-- MAIN CONTENT AREA -->
-        <main class="content-area">
-            
-            <!-- TOP NAVIGATION -->
-            <nav class="navbar">
-                <div class="nav-links">
-                    <div class="nav-link active" onclick="switchTab('portfolio', this)">Portfolio</div>
-                    <div class="nav-link" onclick="switchTab('about', this)">About</div>
-                    <div class="nav-link" onclick="switchTab('resume', this)">Resume</div>
-                </div>
-
-                <button class="theme-toggle-btn" id="themeToggle" onclick="toggleTheme()">
-                    <i class="fa-solid fa-sun" id="themeIcon"></i>
-                    <span id="themeText">Light Mode</span>
-                </button>
+                <a href="#archive" class="nav-item" data-section="archive">
+                    <span class="nav-line" aria-hidden="true"></span>
+                    <span class="nav-num">03.</span>
+                    <span class="nav-label">Project Archive</span>
+                </a>
+                <a href="#experience" class="nav-item" data-section="experience">
+                    <span class="nav-line" aria-hidden="true"></span>
+                    <span class="nav-num">04.</span>
+                    <span class="nav-label">Experience</span>
+                </a>
+                <a href="#credentials" class="nav-item" data-section="credentials">
+                    <span class="nav-line" aria-hidden="true"></span>
+                    <span class="nav-num">05.</span>
+                    <span class="nav-label">Credentials &amp; Stack</span>
+                </a>
             </nav>
 
-            <!-- PORTFOLIO SECTION -->
-            <section id="portfolio" class="tab-section active">
-                <h2 class="section-title">Featured Work</h2>
-                
-                <div class="filter-list">
-                    <button class="filter-btn active" onclick="filterProjects('all', this)">All</button>
-                    <button class="filter-btn" onclick="filterProjects('app', this)">Web / Desktop Apps</button>
-                    <button class="filter-btn" onclick="filterProjects('wordpress', this)">WordPress</button>
-                    <button class="filter-btn" onclick="filterProjects('squarespace', this)">Squarespace</button>
-                    <button class="filter-btn" onclick="filterProjects('webflow', this)">Webflow</button>
-                    <!-- <button class="filter-btn" onclick="filterProjects('landing', this)">Landing Pages</button> -->
+            <div class="sidebar-footer">
+                <div class="contact-stack">
+                    <a href="mailto:ndubuezekenny@gmail.com" class="contact-link">
+                        <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                        <span>ndubuezekenny@gmail.com</span>
+                    </a>
+                    <a href="tel:+2348060333491" class="contact-link">
+                        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                        <span>+234-806-033-3491</span>
+                    </a>
                 </div>
 
-                <div class="portfolio-grid">
-                    
-                    <div class="project-card" data-category="app">
-                        <div class="thumbnail-wrapper">
-                            <span class="badge">Desktop App</span>
-                            <img src="images/luma browser.png" alt="Aether Desktop Browser">
+                <div class="social-row">
+                    <a href="https://www.linkedin.com/in/kenneth-n-890749b3" target="_blank" rel="noopener noreferrer" class="btn-outline">
+                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Regalcoder" target="_blank" rel="noopener noreferrer" class="btn-outline">
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+
+                <a href="https://drive.google.com/file/d/1RiPv4bUXPETIGXyA-nbhW2qGrk85wDdJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                    <i class="fa-solid fa-download" aria-hidden="true"></i>
+                    <span>Download CV</span>
+                </a>
+
+                <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+                    <i class="fa-solid fa-sun" id="themeIcon" aria-hidden="true"></i>
+                    <span id="themeText">Light Mode</span>
+                </button>
+            </div>
+        </aside>
+
+        <!-- MAIN SINGLE-SCROLL CONTENT -->
+        <main class="main-content" id="main-content">
+
+            <!-- 01 · OVERVIEW -->
+            <section id="overview" class="content-section">
+                <div class="section-eyebrow">
+                    <span>01 · OVERVIEW</span>
+                    <span class="eyebrow-rule" aria-hidden="true"></span>
+                </div>
+
+                <h1 class="hero-headline">
+                    Bridging rapid CMS delivery with custom React, Next.js &amp; AI engineering.
+                </h1>
+
+                <div class="overview-copy">
+                    <p>
+                        I am a <strong>Frontend &amp; CMS Engineer</strong> with 3+ years of experience engineering high-performance web platforms for international agencies and product teams. I specialize in pairing the speed of modern CMS ecosystems with the stability of custom-coded <strong>React, Next.js, TypeScript, and AI-enabled workflows</strong>.
+                    </p>
+                    <p>
+                        Guided by a <strong>custom-code-over-plugins philosophy</strong>, I deliver sub-3-second load times, top-tier Lighthouse scores, and clean editorial architectures that move organic rankings, raise conversion rates, and empower non-technical teams to manage their platforms with confidence.
+                    </p>
+                </div>
+
+                <div class="bento-grid">
+                    <article class="bento-card">
+                        <div class="bento-icon icon-emerald" aria-hidden="true">
+                            <i class="fa-solid fa-microchip"></i>
                         </div>
-                        <div class="card-body">
-                            <h3 class="project-title">Aether Desktop Browser</h3>
-                            <p class="project-desc">Lightweight multi-tab desktop browser featuring session auto-restore, intelligent omnibox autocomplete, custom themes, and news feed integration.</p>
-                            <p class="project-stack">Electron.js, JavaScript, HTML5, CSS3</p>
-                            <div class="card-actions">
-                                <a href="https://github.com/Regalcoder/my-browser/releases/download/v1.0.1/Aether.Browser.Setup.1.0.1.exe" target="_blank" class="btn-action">Download Build</a>
-                                <a href="https://github.com/Regalcoder/my-browser" target="_blank" class="btn-action">View Code</a>
-                            </div>
+                        <h2 class="bento-title">Frontend &amp; AI Web Apps</h2>
+                        <p class="bento-desc">
+                            Production React.js, Next.js, TypeScript, and Supabase (RLS) applications paired with LLM/API automation workflows using Claude, Gemini &amp; CodeRabbit.
+                        </p>
+                    </article>
+
+                    <article class="bento-card">
+                        <div class="bento-icon icon-cyan" aria-hidden="true">
+                            <i class="fa-solid fa-cubes"></i>
                         </div>
+                        <h2 class="bento-title">CMS Architecture</h2>
+                        <p class="bento-desc">
+                            Bespoke WordPress themes &amp; plugins alongside scalable Webflow, Squarespace, Wix, GoHighLevel, and Headless CMS platforms built for non-technical teams.
+                        </p>
+                    </article>
+
+                    <article class="bento-card">
+                        <div class="bento-icon icon-blue" aria-hidden="true">
+                            <i class="fa-solid fa-gauge-high"></i>
+                        </div>
+                        <h2 class="bento-title">Performance, UI/UX &amp; Delivery</h2>
+                        <p class="bento-desc">
+                            Core Web Vitals tuning, Lighthouse 95+ optimization, Technical SEO, and structured cross-functional execution using Figma, Stitch, and Asana.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 02 · FEATURED WORK -->
+            <section id="featured" class="content-section">
+                <div class="section-eyebrow">
+                    <span>02 · FEATURED WORK</span>
+                    <span class="eyebrow-rule" aria-hidden="true"></span>
+                </div>
+
+                <h2 class="section-heading">Selected Production Builds</h2>
+                <p class="section-subtitle">
+                    Flagship AI software and live commercial websites engineered for speed, SEO health, and business conversion.
+                </p>
+
+                <!-- FILTER BAR -->
+                <div class="filter-bar" role="toolbar" aria-label="Filter projects by category">
+                    <div class="filter-pills">
+                        <button type="button" class="filter-pill active" data-filter="all" aria-pressed="true">All</button>
+                        <button type="button" class="filter-pill" data-filter="apps-ai" aria-pressed="false">Apps &amp; AI</button>
+                        <button type="button" class="filter-pill" data-filter="wordpress" aria-pressed="false">WordPress</button>
+                        <button type="button" class="filter-pill" data-filter="squarespace-wix" aria-pressed="false">Squarespace &amp; Wix</button>
+                        <button type="button" class="filter-pill" data-filter="custom-code" aria-pressed="false">Custom Code</button>
+                    </div>
+                    <div class="project-counter" id="projectCounter" aria-live="polite">Showing 13 projects</div>
+                </div>
+
+                <!-- #1 FLAGSHIP FULL-WIDTH CARD: REMOTEAFRICA -->
+                <article class="flagship-card filterable-item" data-tier="featured" data-category="apps-ai">
+                    <div class="flagship-media">
+                        <div class="media-badges">
+                            <span class="pill-badge pill-emerald">
+                                <span class="badge-dot" aria-hidden="true"></span>
+                                Private Beta • Invite Only
+                            </span>
+                            <span class="pill-badge pill-cyan">AI SaaS</span>
+                        </div>
+                        <img
+                            src="images/remoteafrica.png"
+                            alt="RemoteAfrica AI Job Hunter and Lead Automation Dashboard"
+                            class="flagship-img"
+                            fetchpriority="high"
+                            decoding="async"
+                        >
                     </div>
 
-                    <div class="project-card" data-category="wordpress">
-                        <div class="thumbnail-wrapper">
-                            <span class="badge-metrics">Lighthouse 95+</span>
-                            <span class="badge">WordPress</span>
-                            <img src="images/hooper built.PNG" alt="HooperBuilt Construction">
+                    <div class="flagship-body">
+                        <div class="flagship-kicker">
+                            <i class="fa-solid fa-star" aria-hidden="true"></i>
+                            <span>FLAGSHIP FULL-STACK BUILD</span>
                         </div>
-                        <div class="card-body">
-                            <h3 class="project-title">HooperBuilt Construction</h3>
-                            <p class="project-desc">Custom WordPress theme development with mobile-first asset tuning, optimized asset delivery, and customized client workflow management.</p>
-                            <p class="project-stack">WordPress, Custom Theme, PHP, JavaScript</p>
-                            <div class="card-actions">
-                                <a href="https://hooperbuilt.com/" target="_blank" class="btn-action">Live Demo</a>
-                                
-                            </div>
+                        <h3 class="card-title flagship-title">RemoteAfrica — AI Job &amp; Lead Automation Engine</h3>
+                        <p class="card-desc">
+                            Multi-tenant autonomous job-hunting and client lead-generation platform powered by LLM matching, automated CV tailoring, cold email outreach, and inbox response tracking—secured with Supabase Row Level Security.
+                        </p>
+
+                        <div class="tech-pills">
+                            <span class="tech-pill">Next.js</span>
+                            <span class="tech-pill">TypeScript</span>
+                            <span class="tech-pill">Supabase (RLS)</span>
+                            <span class="tech-pill">Gemini AI</span>
+                            <span class="tech-pill">Email Pipeline</span>
+                        </div>
+
+                        <div class="card-actions">
+                            <button type="button" class="btn-card-primary" id="openDemoBtn">
+                                <i class="fa-solid fa-circle-play" aria-hidden="true"></i>
+                                <span>Watch 60s Demo</span>
+                            </button>
+                            <a href="https://ai-job-hunter-private.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-card">
+                                <span>Live Instance</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                            </a>
                         </div>
                     </div>
+                </article>
 
-                    <div class="project-card" data-category="webflow landing">
-                        <div class="thumbnail-wrapper">
-                            <span class="badge">Webflow</span>
-                            <img src="images/dj image.png" alt="Spotlight DJ Services">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="project-title">Spotlight DJ Services</h3>
-                            <p class="project-desc">High-converting single-page application built for entertainment services with smooth scroll animations and responsive layouts.</p>
-                            <p class="project-stack">Webflow, Custom CSS, JavaScript</p>
-                            <div class="card-actions">
-                                <a href="https://regalcoder.github.io/spotlight/" target="_blank" class="btn-action">Live Demo</a>
-                                <a href="https://github.com/Regalcoder/spotlight" target="_blank" class="btn-action">View Code</a>
+                <!-- 2-COLUMN BROWSER-FRAMED FEATURED GRID (#2 - #6) -->
+                <div class="featured-grid" id="featuredGrid">
+
+                    <!-- #2 ONE EXTRA COOKIE -->
+                    <article class="project-card filterable-item" data-tier="featured" data-category="squarespace-wix">
+                        <div class="browser-chrome">
+                            <div class="chrome-dots" aria-hidden="true">
+                                <span class="dot-red"></span>
+                                <span class="dot-yellow"></span>
+                                <span class="dot-green"></span>
                             </div>
+                            <span class="chrome-url">oneextracookie.com</span>
                         </div>
-                    </div>
-
-                    <div class="project-card" data-category="squarespace landing">
-                        <div class="thumbnail-wrapper">
-                            <span class="badge">Squarespace</span>
-                            <img src="images/rva brokers.PNG" alt="RVA Business Brokers">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="project-title">RVA Business Brokers</h3>
-                            <p class="project-desc">Clean commercial platform with integrated custom CSS styles, optimized user funnels, and mobile responsiveness.</p>
-                            <p class="project-stack">Squarespace, Custom CSS, JavaScript</p>
-                            <div class="card-actions">
-                                <a href="https://dan-daniel-rva.squarespace.com/" target="_blank" class="btn-action">Live Demo</a>
+                        <div class="card-media">
+                            <div class="media-badges">
+                                <span class="pill-badge pill-agency">HeiPro Digital</span>
+                                <span class="pill-badge pill-dark">Squarespace</span>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card" data-category="wordpress landing">
-                        <div class="thumbnail-wrapper">
-                            <span class="badge">WordPress</span>
-                            <img src="images/denver.PNG" alt="4Ever Charge Franchise">
+                            <img
+                                src="images/one-extra-cookie.jpg"
+                                alt="One Extra Cookie Kansas City custom bakery website on Squarespace"
+                                loading="lazy"
+                                decoding="async"
+                            >
                         </div>
                         <div class="card-body">
-                            <h3 class="project-title">4Ever Charge Of Denver EV Franchise</h3>
-                            <p class="project-desc">Franchise landing page engineered for fast 
-                                performance, custom lead tracking, and responsive asset delivery.
+                            <h3 class="card-title">One Extra Cookie</h3>
+                            <p class="card-desc">
+                                Conversion-focused custom bakery platform for a Kansas City brand featuring tiered pricing, interactive flavor carousels, availability guidance, and a streamlined custom-order funnel.
                             </p>
-                            <p class="project-stack">WordPress, PHP, Tailwind CSS</p>
+                            <div class="tech-pills">
+                                <span class="tech-pill">Squarespace</span>
+                                <span class="tech-pill">Custom CSS</span>
+                                <span class="tech-pill">JavaScript</span>
+                            </div>
                             <div class="card-actions">
-                                <a href="https://4everchargeofdenver.com/" target="_blank" class="btn-action">Live Demo</a>
+                                <a href="https://www.oneextracookie.com/" target="_blank" rel="noopener noreferrer" class="btn-card">
+                                    <span>Live Site</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                                </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="project-card" data-category="app">
-                        <div class="thumbnail-wrapper">
-                            <span class="badge">Web Application</span>
-                            <img src="images/task manager.jpg" alt="Task Manager App">
+                    <!-- #3 HOOPERBUILT CONSTRUCTION -->
+                    <article class="project-card filterable-item" data-tier="featured" data-category="wordpress">
+                        <div class="browser-chrome">
+                            <div class="chrome-dots" aria-hidden="true">
+                                <span class="dot-red"></span>
+                                <span class="dot-yellow"></span>
+                                <span class="dot-green"></span>
+                            </div>
+                            <span class="chrome-url">hooperbuilt.com</span>
+                        </div>
+                        <div class="card-media">
+                            <div class="media-badges">
+                                <span class="pill-badge pill-emerald">Lighthouse 95+</span>
+                                <span class="pill-badge pill-dark">WordPress</span>
+                            </div>
+                            <img
+                                src="images/hooper-built.png"
+                                alt="HooperBuilt Construction roofing and remodeling WordPress website"
+                                loading="lazy"
+                                decoding="async"
+                            >
                         </div>
                         <div class="card-body">
-                            <h3 class="project-title">Vanilla JavaScript Task Management Application</h3>
-                            <p class="project-desc">
-                                A lightweight, feature-rich task manager built with modern vanilla JavaScript. 
-                                Features local persistence, HTML5 drag-and-drop reordering, inline task editing, 
-                                multi-criteria sorting, global keyboard shortcuts, and responsive toast feedback—built 
-                                with zero third-party framework bloat.
+                            <h3 class="card-title">HooperBuilt Construction</h3>
+                            <p class="card-desc">
+                                Custom WordPress build for a Maryland roofing and remodeling contractor engineered with local SEO architecture, structured multi-service navigation, and mobile-first optimization.
                             </p>
-                            <p class="project-stack">JavaScript (ES6+), HTML5, CSS3</p>
+                            <div class="tech-pills">
+                                <span class="tech-pill">WordPress</span>
+                                <span class="tech-pill">Custom Theme</span>
+                                <span class="tech-pill">PHP</span>
+                                <span class="tech-pill">JavaScript</span>
+                            </div>
                             <div class="card-actions">
-                                <a href="https://regalcoder.github.io/To-do-Task/" target="_blank" class="btn-action">Live Demo</a>
-                                <a href="https://github.com/Regalcoder/To-do-Task" target="_blank" class="btn-action">View Code</a>
+                                <a href="https://hooperbuilt.com/" target="_blank" rel="noopener noreferrer" class="btn-card">
+                                    <span>Live Site</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                                </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="project-card" data-category="wordpress">
-                        <div class="thumbnail-wrapper">
-                            <span class="badge-metrics">Lighthouse 95+</span> 
-                            <span class="badge">WordPress</span>
-                            <img src="images/4everCharge.png" alt="4EVER CHARGE, EV Charging Franchise">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="project-title">4EVER CHARGE, EV Charging Franchise </h3>
-                            <p class="project-desc">Custom WordPress plugin/theme development with mobile-first asset tuning, optimized asset delivery, and customized client workflow management.</p>
-                            <p class="project-stack">WordPress, Custom plugin, PHP, JavaScript</p>
-                            <div class="card-actions">
-                                <a href="https://4evercharge.com" target="_blank" class="btn-action">Live Demo</a>
-                                
+                    <!-- #4 FACTORY DIRECT WINDOWS & DOORS -->
+                    <article class="project-card filterable-item" data-tier="featured" data-category="wordpress">
+                        <div class="browser-chrome">
+                            <div class="chrome-dots" aria-hidden="true">
+                                <span class="dot-red"></span>
+                                <span class="dot-yellow"></span>
+                                <span class="dot-green"></span>
                             </div>
+                            <span class="chrome-url">fdwindowsanddoors.com</span>
                         </div>
-                    </div>
-
-                    <div class="project-card" data-category="wordpress landing">
-                        <div class="thumbnail-wrapper">
-                            <span class="badge">WordPress</span>
-                            <img src="images/phoenix.PNG" alt="4Ever Charge Franchise">
+                        <div class="card-media">
+                            <div class="media-badges">
+                                <span class="pill-badge pill-cyan">WordPress</span>
+                                <span class="pill-badge pill-dark">Local SEO</span>
+                            </div>
+                            <img
+                                src="images/factory-direct.png"
+                                alt="Factory Direct Windows and Doors Central Florida WordPress website"
+                                loading="lazy"
+                                decoding="async"
+                            >
                         </div>
                         <div class="card-body">
-                            <h3 class="project-title">4Ever Charge Of Phoenix EV Franchise</h3>
-                            <p class="project-desc">Franchise landing page engineered for fast 
-                                performance, custom lead tracking, and responsive asset delivery.
+                            <h3 class="card-title">Factory Direct Windows &amp; Doors</h3>
+                            <p class="card-desc">
+                                Regional Central Florida lead-generation site structured around county-level service pages, manufacturer partner showcases, an active SEO blog, and multi-field consultation intake.
                             </p>
-                            <p class="project-stack">WordPress, Custom Theme, PHP</p>
+                            <div class="tech-pills">
+                                <span class="tech-pill">WordPress</span>
+                                <span class="tech-pill">Custom Theme</span>
+                                <span class="tech-pill">PHP</span>
+                                <span class="tech-pill">JavaScript</span>
+                            </div>
                             <div class="card-actions">
-                                <a href="https://4everchargeofgreaterphoenix.com/" target="_blank" class="btn-action">Live Demo</a>
+                                <a href="https://fdwindowsanddoors.com/" target="_blank" rel="noopener noreferrer" class="btn-card">
+                                    <span>Live Site</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                                </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-
-                    <div class="project-card" data-category="squarespace">
-                        <div class="thumbnail-wrapper">
-                            <span class="badge">Squarespace</span>
-                            <img src="images/bateson.PNG" alt="bateson business brokerage inc">
+                    <!-- #5 4EVER CHARGE -->
+                    <article class="project-card filterable-item" data-tier="featured" data-category="wordpress">
+                        <div class="browser-chrome">
+                            <div class="chrome-dots" aria-hidden="true">
+                                <span class="dot-red"></span>
+                                <span class="dot-yellow"></span>
+                                <span class="dot-green"></span>
+                            </div>
+                            <span class="chrome-url">4evercharge.com</span>
+                        </div>
+                        <div class="card-media">
+                            <div class="media-badges">
+                                <span class="pill-badge pill-emerald">Lighthouse 95+</span>
+                                <span class="pill-badge pill-dark">Custom Plugin</span>
+                            </div>
+                            <img
+                                src="images/4evercharge.png"
+                                alt="4EVER CHARGE National EV Charging Franchise WordPress portal"
+                                loading="lazy"
+                                decoding="async"
+                            >
                         </div>
                         <div class="card-body">
-                            <h3 class="project-title">Bateson Business Brokerage Inc</h3>
-                            <p class="project-desc">Clean commercial platform with integrated custom CSS styles, optimized user funnels, and mobile responsiveness.</p>
-                            <p class="project-stack">Squarespace, Custom CSS, JavaScript</p>
+                            <h3 class="card-title">4EVER CHARGE — National EV Franchise</h3>
+                            <p class="card-desc">
+                                Flagship national EV charging franchise portal powered by a bespoke WordPress plugin engineered from scratch for multi-tier directory and franchise management across territories.
+                            </p>
+                            <div class="tech-pills">
+                                <span class="tech-pill">WordPress</span>
+                                <span class="tech-pill">Custom Plugin</span>
+                                <span class="tech-pill">PHP</span>
+                                <span class="tech-pill">JavaScript</span>
+                            </div>
                             <div class="card-actions">
-                                <a href="https://orlandobusinessbroker.squarespace.com/" target="_blank" class="btn-action">Live Demo</a>
+                                <a href="https://4evercharge.com/" target="_blank" rel="noopener noreferrer" class="btn-card">
+                                    <span>Live Site</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                                </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="project-card" data-category="wordpress">
-                        <div class="thumbnail-wrapper">
-                            <!-- <span class="badge-metrics">Lighthouse 95+</span> -->
-                            <span class="badge">WordPress</span>
-                            <img src="images/nshore electric.PNG" alt="North Shore Electric">
+                    <!-- #6 LIMELIGHT ENTERTAINMENT -->
+                    <article class="project-card filterable-item" data-tier="featured" data-category="custom-code">
+                        <div class="browser-chrome">
+                            <div class="chrome-dots" aria-hidden="true">
+                                <span class="dot-red"></span>
+                                <span class="dot-yellow"></span>
+                                <span class="dot-green"></span>
+                            </div>
+                            <span class="chrome-url">regalcoder.github.io/spotlight</span>
+                        </div>
+                        <div class="card-media">
+                            <div class="media-badges">
+                                <span class="pill-badge pill-amber">Custom Code</span>
+                            </div>
+                            <img
+                                src="images/limelight-dj.png"
+                                alt="Limelight Entertainment custom coded DJ showcase website"
+                                loading="lazy"
+                                decoding="async"
+                            >
                         </div>
                         <div class="card-body">
-                            <h3 class="project-title"> North Shore Electric </h3>
-                            <p class="project-desc">Custom WordPress theme development with mobile-first asset tuning, optimized asset delivery, and customized client workflow management.</p>
-                            <p class="project-stack">WordPress, Custom theme, PHP, JavaScript</p>
+                            <h3 class="card-title">Limelight Entertainment</h3>
+                            <p class="card-desc">
+                                High-impact single-page entertainment showcase prototyped in Webflow and hand-coded from scratch for zero-bloat performance, featuring bold editorial typography and smooth scroll animations.
+                            </p>
+                            <div class="tech-pills">
+                                <span class="tech-pill">HTML5</span>
+                                <span class="tech-pill">CSS3</span>
+                                <span class="tech-pill">Vanilla JS</span>
+                                <span class="tech-pill">Webflow Prototype</span>
+                            </div>
                             <div class="card-actions">
-                                <a href="https://nshoreelectric.com" target="_blank" class="btn-action">Live Demo</a>
-                                
+                                <a href="https://regalcoder.github.io/spotlight/" target="_blank" rel="noopener noreferrer" class="btn-card">
+                                    <span>Live Site</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://github.com/Regalcoder/spotlight" target="_blank" rel="noopener noreferrer" class="btn-card">
+                                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                                    <span>View Code</span>
+                                </a>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="project-card" data-category="squarespace">
-                        <div class="thumbnail-wrapper">
-                            <span class="badge">Squarespace</span>
-                            <img src="images/charlotte.PNG" alt="Charlotte Business Brokers">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="project-title">Charlotte Business Brokers</h3>
-                            <p class="project-desc">Clean commercial platform with integrated custom CSS styles, optimized user funnels, and mobile responsiveness.</p>
-                            <p class="project-stack">Squarespace, Custom CSS, JavaScript</p>
-                            <div class="card-actions">
-                                <a href="https://southcharlottebusinessbrokers.squarespace.com/" target="_blank" class="btn-action">Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="project-card" data-category="wordpress">
-                        <div class="thumbnail-wrapper">
-                            <!-- <span class="badge-metrics">Lighthouse 95+</span> -->
-                            <span class="badge">WordPress</span>
-                            <img src="images/factory direct.PNG" alt="Factory Direct Windows And Doors Oviedo, Florida">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="project-title"> Factory Direct Windows And Doors Oviedo, Florida </h3>
-                            <p class="project-desc">Custom WordPress theme development with mobile-first asset tuning, optimized asset delivery, and customized client workflow management.</p>
-                            <p class="project-stack">WordPress, Custom theme, PHP, JavaScript</p>
-                            <div class="card-actions">
-                                <a href="https://fdwindowsanddoors.com" target="_blank" class="btn-action">Live Demo</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card" data-category="squarespace">
-                        <div class="thumbnail-wrapper">
-                            <span class="badge">Squarespace</span>
-                            <img src="images/tampa.PNG" alt="Tampa Bay Business brokers">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="project-title">Tampa Bay Business Brokers</h3>
-                            <p class="project-desc">Clean commercial platform with integrated custom CSS styles, optimized user funnels, and mobile responsiveness.</p>
-                            <p class="project-stack">Squarespace, Custom CSS, JavaScript</p>
-                            <div class="card-actions">
-                                <a href="https://tampabaybusinessbrokers.squarespace.com/" target="_blank" class="btn-action">Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card" data-category="wordpress">
-                        <div class="thumbnail-wrapper">
-                            <!-- <span class="badge-metrics">Lighthouse 95+</span> -->
-                            <span class="badge">WordPress</span>
-                            <img src="images/oakmont.PNG" alt="oakmont Mechanical Services">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="project-title"> Oakmont Mechanical Services </h3>
-                            <p class="project-desc">Custom WordPress theme development with mobile-first asset tuning, optimized asset delivery, and customized client workflow management.</p>
-                            <p class="project-stack">WordPress, Custom theme, PHP, JavaScript</p>
-                            <div class="card-actions">
-                                <a href="https://oakmontmechanicalservices.com/" target="_blank" class="btn-action">Live Demo</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    
+                    </article>
 
                 </div>
             </section>
 
-            <!-- ABOUT SECTION -->
-            <section id="about" class="tab-section">
-                <h2 class="section-title">About Me</h2>
-                <p class="about-text">
-                    I am a results-driven Frontend & CMS Engineer specializing in crafting high-performance, mobile-first web platforms and modern JavaScript applications. With deep technical competence spanning custom frontend stack development (React.js, Next.js, ES6+) and major CMS architectures (WordPress, Squarespace, Webflow, GoHighLevel), I translate complex product requirements into clean, scalable interfaces.
+            <!-- 03 · PROJECT ARCHIVE -->
+            <section id="archive" class="content-section">
+                <div class="section-eyebrow">
+                    <span>03 · PROJECT ARCHIVE</span>
+                    <span class="eyebrow-rule" aria-hidden="true"></span>
+                </div>
+
+                <h2 class="section-heading">Additional Client &amp; Engineering Work</h2>
+                <p class="section-subtitle">
+                    A compact, scannable directory of live agency upgrades, commercial brokerage sites, and open-source utilities.
                 </p>
-                <p class="about-text">
-                    My engineering philosophy centers on code simplicity and architectural performance: replacing heavy plugin dependencies with targeted custom code to optimize Lighthouse scores, elevate organic search rankings, and maximize conversion rates.
-                </p>
+
+                <div class="archive-table-card">
+                    <div class="archive-table-wrap">
+                        <table class="archive-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">PROJECT</th>
+                                    <th scope="col">CATEGORY / ROLE</th>
+                                    <th scope="col">BUILT WITH</th>
+                                    <th scope="col">LINKS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="archive-row filterable-item" data-tier="archive" data-category="squarespace-wix">
+                                    <td class="col-project">Coop's Cotton Candy</td>
+                                    <td class="col-role">Wix · Design Upgrades (HeiPro Digital)</td>
+                                    <td class="col-stack">
+                                        <span class="mini-pill">Wix</span>
+                                        <span class="mini-pill">UI/UX Upgrades</span>
+                                    </td>
+                                    <td class="col-links">
+                                        <a href="https://www.coopscottoncandy.com/" target="_blank" rel="noopener noreferrer" class="archive-link">Live Site ↗</a>
+                                    </td>
+                                </tr>
+
+                                <tr class="archive-row filterable-item" data-tier="archive" data-category="apps-ai">
+                                    <td class="col-project">Aether Desktop Browser</td>
+                                    <td class="col-role">Desktop App · Open Source</td>
+                                    <td class="col-stack">
+                                        <span class="mini-pill">Electron.js</span>
+                                        <span class="mini-pill">JavaScript</span>
+                                        <span class="mini-pill">HTML5</span>
+                                        <span class="mini-pill">CSS3</span>
+                                    </td>
+                                    <td class="col-links">
+                                        <a href="https://github.com/Regalcoder/my-browser" target="_blank" rel="noopener noreferrer" class="archive-link">View Code ↗</a>
+                                    </td>
+                                </tr>
+
+                                <tr class="archive-row filterable-item" data-tier="archive" data-category="squarespace-wix">
+                                    <td class="col-project">Tampa Bay Business Brokers</td>
+                                    <td class="col-role">Squarespace · Commercial M&amp;A</td>
+                                    <td class="col-stack">
+                                        <span class="mini-pill">Squarespace</span>
+                                        <span class="mini-pill">Custom CSS</span>
+                                        <span class="mini-pill">JS</span>
+                                    </td>
+                                    <td class="col-links">
+                                        <a href="https://tampabaybusinessbrokers.squarespace.com/" target="_blank" rel="noopener noreferrer" class="archive-link">Live Site ↗</a>
+                                    </td>
+                                </tr>
+
+                                <tr class="archive-row filterable-item" data-tier="archive" data-category="squarespace-wix">
+                                    <td class="col-project">Charlotte Business Brokers</td>
+                                    <td class="col-role">Squarespace · Business Valuation</td>
+                                    <td class="col-stack">
+                                        <span class="mini-pill">Squarespace</span>
+                                        <span class="mini-pill">Custom CSS</span>
+                                        <span class="mini-pill">JS</span>
+                                    </td>
+                                    <td class="col-links">
+                                        <a href="https://southcharlottebusinessbrokers.squarespace.com/" target="_blank" rel="noopener noreferrer" class="archive-link">Live Site ↗</a>
+                                    </td>
+                                </tr>
+
+                                <tr class="archive-row filterable-item" data-tier="archive" data-category="wordpress">
+                                    <td class="col-project">North Shore Electric</td>
+                                    <td class="col-role">WordPress · Service-Area Platform</td>
+                                    <td class="col-stack">
+                                        <span class="mini-pill">WordPress</span>
+                                        <span class="mini-pill">Custom Theme</span>
+                                        <span class="mini-pill">PHP</span>
+                                    </td>
+                                    <td class="col-links">
+                                        <a href="https://nshoreelectric.com/" target="_blank" rel="noopener noreferrer" class="archive-link">Live Site ↗</a>
+                                    </td>
+                                </tr>
+
+                                <tr class="archive-row filterable-item" data-tier="archive" data-category="wordpress">
+                                    <td class="col-project">4EverCharge of Denver</td>
+                                    <td class="col-role">WordPress · Regional Franchise</td>
+                                    <td class="col-stack">
+                                        <span class="mini-pill">WordPress</span>
+                                        <span class="mini-pill">PHP</span>
+                                        <span class="mini-pill">Tailwind CSS</span>
+                                    </td>
+                                    <td class="col-links">
+                                        <a href="https://4everchargeofdenver.com/" target="_blank" rel="noopener noreferrer" class="archive-link">Live Site ↗</a>
+                                    </td>
+                                </tr>
+
+                                <tr class="archive-row filterable-item" data-tier="archive" data-category="apps-ai custom-code">
+                                    <td class="col-project">Vanilla JS Task Manager</td>
+                                    <td class="col-role">Web App · Zero-Dependency JS</td>
+                                    <td class="col-stack">
+                                        <span class="mini-pill">JavaScript (ES6+)</span>
+                                        <span class="mini-pill">HTML5</span>
+                                        <span class="mini-pill">CSS3</span>
+                                    </td>
+                                    <td class="col-links">
+                                        <a href="https://regalcoder.github.io/To-do-Task/" target="_blank" rel="noopener noreferrer" class="archive-link">Live Demo ↗</a>
+                                        <span class="link-sep" aria-hidden="true">·</span>
+                                        <a href="https://github.com/Regalcoder/To-do-Task" target="_blank" rel="noopener noreferrer" class="archive-link-muted">Code</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </section>
 
-            <!-- RESUME SECTION -->
-            <section id="resume" class="tab-section">
-                <h2 class="section-title">Experience & Skills</h2>
-                
-                <div class="timeline">
+            <!-- 04 · EXPERIENCE -->
+            <section id="experience" class="content-section">
+                <div class="section-eyebrow">
+                    <span>04 · EXPERIENCE</span>
+                    <span class="eyebrow-rule" aria-hidden="true"></span>
+                </div>
 
-                    <div class="timeline-item">
+                <h2 class="section-heading">Career Timeline</h2>
+                <p class="section-subtitle">
+                    End-to-end delivery across US digital agencies and fintech frontend engineering.
+                </p>
+
+                <div class="timeline-list">
+                    <article class="timeline-card">
                         <div class="timeline-header">
                             <div>
-                                <h3 class="role-title"> CMS Engineer & Designer (Remote) </h3>
-                                <p class="company-name">HeiPro Digital | Missouri, USA</p>
+                                <h3 class="role-title">CMS Engineer &amp; Designer (Remote)</h3>
+                                <p class="company-meta">HeiPro Digital · Missouri, USA</p>
                             </div>
-                            <span class="date-badge">April 2026 – Present</span>
+                            <span class="date-pill date-current">Apr 2026 – Present</span>
                         </div>
-                        <ul class="bullet-list">
-                            <li>
-                                Design and build client websites across WordPress, Webflow, 
-                                and Squarespace for a full-service, strategy-driven digital 
-                                agency serving SMBs, entrepreneurs, and employee-owned companies 
-                                across the US.
-                            </li>
-
-                            <li>
-                                Translate brand strategy and creative direction into high-fidelity, 
-                                conversion-focused web experiences — balancing visual aesthetics with 
-                                measurable business outcomes (lead generation, SEO, engagement).
-                            </li>
-
-                            <li>
-                                Architect CMS solutions that empower non-technical clients to manage 
-                                their own content post-launch, reducing ongoing agency dependency while 
-                                maintaining design integrity.
-                            </li>
-                            
-                            <li>
-                                Collaborate within a fully remote, cross-functional team of designers, 
-                                copywriters, and SEO strategists — contributing to projects from discovery 
-                                through to live launch.
-                            </li>
-
-                            <li>
-                                Implement performance optimizations, accessibility best practices, and 
-                                responsive design principles to ensure websites meet modern web standards 
-                                and deliver exceptional user experiences across devices.
-                            </li>
-
-                            <li>
-                                Maintain up-to-date knowledge of emerging web technologies, CMS platforms, 
-                                and industry trends to continuously enhance the agency's technical capabilities 
-                                and deliver innovative solutions to clients.
-                            </li>
+                        <ul class="timeline-bullets">
+                            <li>Design, build, and upgrade client websites across WordPress, Webflow, Squarespace, and Wix for a full-service US digital agency serving SMBs, entrepreneurs, and employee-owned businesses.</li>
+                            <li>Translate brand strategy and creative direction into conversion-focused web experiences balancing visual aesthetics with measurable lead generation, SEO, and engagement outcomes.</li>
+                            <li>Architect maintainable CMS workflows that empower non-technical clients post-launch while collaborating across designers, copywriters, and SEO strategists via Asana.</li>
                         </ul>
-                    </div>
+                    </article>
 
-
-                    <div class="timeline-item">
+                    <article class="timeline-card">
                         <div class="timeline-header">
                             <div>
-                                <h3 class="role-title">Web Developer / Designer (Remote)</h3>
-                                <p class="company-name">Exponential Media | Baltimore, USA</p>
+                                <h3 class="role-title">Frontend Engineer (Remote)</h3>
+                                <p class="company-meta">Exponential Media · Maryland, USA</p>
                             </div>
-                            <span class="date-badge">November 2023 – February 2026</span>
+                            <span class="date-pill">Jul 2024 – Mar 2026</span>
                         </div>
-                        <ul class="bullet-list">
-                            <li>Architected and delivered 12+ custom client websites, converting complex wireframes into responsive frontend interfaces.</li>
-                            <li>Boosted mobile Lighthouse performance metrics by ~40% through code splitting and asset optimization.</li>
-                            <li>Implemented SEO and structured data frameworks, raising target search engine placements within six weeks.</li>
-                            <li>Engineered custom frontend components while streamlining client handoffs with structured CMS enablement documentation.</li>
+                        <ul class="timeline-bullets">
+                            <li>Led end-to-end development of 20+ client websites using Webflow, WordPress, Squarespace, and custom HTML/CSS/JS engineered for long-term scalability.</li>
+                            <li>Engineered a bespoke WordPress plugin from scratch to manage multi-tier EV franchise and directory solutions, eliminating third-party plugin bloat and preserving optimal site speed.</li>
+                            <li>Reduced post-launch support tickets by ~40% through custom CMS editorial dashboards, lifted mobile Lighthouse scores by ~40% (sub-3s loads), and moved client sites from page 4 to page 1 in 6 weeks.</li>
                         </ul>
-                    </div>
+                    </article>
 
-                    <div class="timeline-item">
+                    <article class="timeline-card">
                         <div class="timeline-header">
                             <div>
                                 <h3 class="role-title">Web Developer Intern (Remote)</h3>
-                                <p class="company-name">PurplePay</p>
+                                <p class="company-meta">Exponential Media · Maryland, USA</p>
                             </div>
-                            <span class="date-badge">Jan 2021 – June 2021</span>
+                            <span class="date-pill">Nov 2023 – Jun 2024</span>
                         </div>
-                        <ul class="bullet-list">
-                            <li>Built modular, reusable UI components using React.js, Next.js, and Tailwind CSS.</li>
-                            <li>Converted visual Figma wireframes into accessible, semantic HTML5/CSS3 web applications.</li>
-                            <li>Optimized web performance through cross-browser debugging, lazy loading, and component-level tuning.</li>
+                        <ul class="timeline-bullets">
+                            <li>Built responsive, brand-aligned websites using Squarespace, WordPress, and Webflow customized with HTML, CSS, and JavaScript beyond default theme limits.</li>
+                            <li>Developed Webflow CMS blogs, multi-step forms, and scroll-triggered animations while aligning semantic markup and metadata with Core Web Vitals compliance.</li>
                         </ul>
-                    </div>
+                    </article>
+
+                    <article class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role-title">Web Development Intern (Remote)</h3>
+                                <p class="company-meta">Purple Pay · Lagos, Nigeria</p>
+                            </div>
+                            <span class="date-pill">Jan 2021 – Jun 2021</span>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Developed modular, reusable frontend components using React.js, Next.js, Tailwind CSS, and Bootstrap from UI/UX wireframes for web apps and internal executive tools.</li>
+                            <li>Debugged cross-browser compatibility issues and applied lazy loading and component-level tuning to improve application speed and stability.</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 05 · CREDENTIALS & STACK -->
+            <section id="credentials" class="content-section">
+                <div class="section-eyebrow">
+                    <span>05 · CREDENTIALS &amp; STACK</span>
+                    <span class="eyebrow-rule" aria-hidden="true"></span>
                 </div>
 
-                <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">Technical Stack</h3>
-                <div class="skills-grid">
-                    <div class="skill-box">
-                        <h4>Frontend Engineering</h4>
-                        <p>HTML5, CSS3, JavaScript (ES6+), React.js, Next.js, Electron.js</p>
+                <h2 class="section-heading">Education, Certifications &amp; Technical Stack</h2>
+                <p class="section-subtitle">
+                    Verified AI engineering credentials, formal computer science training, and production tooling.
+                </p>
+
+                <div class="credentials-grid">
+                    <article class="credential-card">
+                        <div class="cred-top">
+                            <span class="pill-badge pill-emerald">Verified Certificate</span>
+                            <span class="cred-date">Sep 2026</span>
+                        </div>
+                        <h3 class="cred-title">Working with the OpenAI API</h3>
+                        <p class="cred-org">DataCamp · Statement of Accomplishment #49,326,051</p>
+                    </article>
+
+                    <article class="credential-card">
+                        <div class="cred-top">
+                            <span class="pill-badge pill-cyan">In Progress</span>
+                            <span class="cred-date">2026</span>
+                        </div>
+                        <h3 class="cred-title">Prompt Engineering with the OpenAI API</h3>
+                        <p class="cred-org">DataCamp · Extended AI Engineering Track</p>
+                    </article>
+
+                    <article class="credential-card">
+                        <div class="cred-top">
+                            <span class="pill-badge pill-dark">Specialization</span>
+                            <span class="cred-date">2025</span>
+                        </div>
+                        <h3 class="cred-title">Professional Diploma, Software Engineering</h3>
+                        <p class="cred-org">Alt School Africa</p>
+                    </article>
+
+                    <article class="credential-card">
+                        <div class="cred-top">
+                            <span class="pill-badge pill-dark">Degree &amp; Bootcamp</span>
+                            <span class="cred-date">2020 – 2021</span>
+                        </div>
+                        <h3 class="cred-title">B.Sc. Computer Science</h3>
+                        <p class="cred-org">Protestant University of West Africa · Frontend Bootcamp (HNG / Kode-Camp, 2021)</p>
+                    </article>
+                </div>
+
+                <div class="stack-grid">
+                    <div class="stack-card">
+                        <h3 class="stack-title">Frontend &amp; Full-Stack</h3>
+                        <div class="tech-pills">
+                            <span class="tech-pill">React.js</span>
+                            <span class="tech-pill">Next.js</span>
+                            <span class="tech-pill">TypeScript</span>
+                            <span class="tech-pill">JavaScript (ES6+)</span>
+                            <span class="tech-pill">Supabase (RLS)</span>
+                            <span class="tech-pill">Tailwind CSS</span>
+                            <span class="tech-pill">HTML5 / CSS3</span>
+                            <span class="tech-pill">Electron.js</span>
+                        </div>
                     </div>
-                    <div class="skill-box">
-                        <h4>Styling & Frameworks</h4>
-                        <p>Tailwind CSS, Bootstrap, Responsive Design, Semantic UI</p>
+
+                    <div class="stack-card">
+                        <h3 class="stack-title">CMS &amp; Web Platforms</h3>
+                        <div class="tech-pills">
+                            <span class="tech-pill">WordPress (Custom Themes)</span>
+                            <span class="tech-pill">Custom WP Plugins</span>
+                            <span class="tech-pill">Webflow</span>
+                            <span class="tech-pill">Squarespace</span>
+                            <span class="tech-pill">Wix</span>
+                            <span class="tech-pill">GoHighLevel</span>
+                            <span class="tech-pill">Headless CMS</span>
+                        </div>
                     </div>
-                    <div class="skill-box">
-                        <h4>CMS & Ecosystems</h4>
-                        <p>WordPress (Custom Themes), Webflow, Squarespace, Wix, GoHighLevel</p>
+
+                    <div class="stack-card">
+                        <h3 class="stack-title">UI/UX, SEO &amp; Performance</h3>
+                        <div class="tech-pills">
+                            <span class="tech-pill">Figma</span>
+                            <span class="tech-pill">Stitch</span>
+                            <span class="tech-pill">Lighthouse Auditing</span>
+                            <span class="tech-pill">Core Web Vitals</span>
+                            <span class="tech-pill">Semantic Markup</span>
+                            <span class="tech-pill">Structured Data</span>
+                            <span class="tech-pill">CDN &amp; SSL</span>
+                        </div>
                     </div>
-                    <div class="skill-box">
-                        <h4>Tools & Tooling</h4>
-                        <p>Git, GitHub, Figma, VS Code, Lighthouse Auditing, UAT</p>
+
+                    <div class="stack-card">
+                        <h3 class="stack-title">AI Engineering &amp; Workflow</h3>
+                        <div class="tech-pills">
+                            <span class="tech-pill">Claude</span>
+                            <span class="tech-pill">Gemini</span>
+                            <span class="tech-pill">CodeRabbit</span>
+                            <span class="tech-pill">OpenAI API</span>
+                            <span class="tech-pill">Asana</span>
+                            <span class="tech-pill">Git &amp; GitHub</span>
+                            <span class="tech-pill">Agile / Scrum</span>
+                        </div>
                     </div>
                 </div>
             </section>
 
+            <footer class="site-footer">
+                <p>&copy; 2026 Kenneth Ndubueze · Engineered for speed, accessibility &amp; SEO.</p>
+            </footer>
+
         </main>
     </div>
+
+    <!-- DEMO VIDEO MODAL (Loom slot ready) -->
+    <div class="modal-backdrop" id="demoModal" role="dialog" aria-modal="true" aria-labelledby="demoModalTitle" hidden>
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <div>
+                    <span class="pill-badge pill-emerald">
+                        <span class="badge-dot" aria-hidden="true"></span>
+                        Private Beta • Invite Only
+                    </span>
+                    <h3 id="demoModalTitle" class="modal-title">RemoteAfrica — 60s Product Walkthrough</h3>
+                </div>
+                <button type="button" class="modal-close" id="closeDemoBtn" aria-label="Close demo modal">
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="modal-content" id="demoModalBody">
+                <!-- Populated by script.js: shows Loom iframe when DEMO_LOOM_URL is set, or clean fallback slot -->
+            </div>
+        </div>
+    </div>
+
     <script src="script.js" defer></script>
 </body>
 </html>
